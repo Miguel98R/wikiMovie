@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "wikiMovie",
+    "slug": "wikiMovie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/movieIconB.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/movieIconB.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/movieIconB.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.mikerosasdev98.wikiMovie"
+    },
+    "web": {
+      "favicon": "./assets/movieIconB.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f0018637-f280-460c-b3d6-33234cc20e7e"
+      }
+    }
+  }
+}
